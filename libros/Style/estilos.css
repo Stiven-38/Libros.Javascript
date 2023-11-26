@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;  /* Establece la fuente predeterminada para todo el documento */
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;  /* Establece el color de fondo para todo el cuerpo */
+    text-align: center;  /* Centra el texto dentro del cuerpo */
+    background-repeat: no-repeat;
+    background-image: url('/img/fondo-de-libros.jpg');  /* Establece la imagen de fondo para el cuerpo */
+    background-size: cover;  /* Asegura que la imagen de fondo cubra todo el cuerpo */
+}
+
+.libros-container {
+    display: flex;
+    justify-content: space-between;  /* Agrega espacio entre los elementos en el contenedor */
+}
+
+.libros-container {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio */
+}
+
+.libro-container {
+    width: 48%;  /* Establece el ancho de cada contenedor */
+    margin-bottom: 20px;
+    background-color: #fff;  /* Establece el color de fondo de cada contenedor */
+    padding: 15px;  /* Agrega relleno dentro de cada contenedor */
+    border-radius: 8px;  /* Agrega esquinas redondeadas a cada contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Agrega una sombra sutil a cada contenedor */
+    transition: transform 0.3s ease-in-out;  /* Agrega un efecto de transición suave al pasar el mouse */
+}
+
+.libro-container:hover {
+    transform: scale(1.03);  /* Aumenta ligeramente el contenedor al pasar el mouse */
+}
+
+button {
+    cursor: pointer;  /* Establece el cursor como puntero en los botones */
+    padding: 10px 15px;  /* Agrega relleno dentro de los botones */
+    border: none;  /* Elimina el borde del botón */
+    border-radius: 4px;  /* Agrega esquinas redondeadas a los botones */
+    margin-top: 10px;  /* Agrega un espacio encima de los botones */
+    font-size: 14px;  /* Establece el tamaño de fuente para los botones */
+    transition: background-color 0.3s ease-in-out;  /* Agrega un efecto de transicion suave al pasar el mouse */
+}
+
+button:hover {
+    background-color: #4CAF50;  /* Cambia el color de fondo de los botones al pasar el mouse */
+    color: #fff;  /* Establece el color del texto de los botones al pasar el mouse */
+}
+
+span {
+    margin-right: 10px;  /* Agrega margen derecho a los spans */
+}
+
+#total-compra {
+    font-size: 18px;  /* Establece el tamaño de fuente para el elemento de compra total */
+    font-weight: bold;  /* Establece el peso de la fuente como negrita */
+    color: #787978;  /* Establece el color de texto para el elemento de compra total */
+}
+
+h1 {
+    color: rgb(238, 10, 10);  /* Establece el color de texto para los encabezados de nivel 1 */
+}
+
+/* Estilo para el contador */
+.contador {
+    display: inline-block;  /* Muestra el contador como un bloque en línea */
+    margin: 0 10px;  /* Agrega margen alrededor del contador */
+    font-weight: bold;  /* Establece el peso de la fuente como negrita */
+    font-size: 16px;  /* Establece el tamaño de fuente para el contador */
+}
