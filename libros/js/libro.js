@@ -1,7 +1,7 @@
 let totalCompra = 0; // Variable para almacenar el total de la compra
 const libros = [
-    { titulo: "Libro 1", precio: 20 },
-    { titulo: "Libro 2", precio: 30 }
+    { titulo: "Html 1", precio: 60 },
+    { titulo: "python 2", precio: 40 }
 
 ];
 
