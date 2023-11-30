@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;  /* Establece la fuente predeterminada para todo el documento */
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;  /* Establece el color de fondo para todo el cuerpo */
+    background-color: #cf0000;  /* Establece el color de fondo para todo el cuerpo */
     text-align: center;  /* Centra el texto dentro del cuerpo */
     background-repeat: no-repeat;
-    background-image: url('https://cafedespacio.org/wp-content/uploads/2011/02/fondo-de-libros.jpg');  /* Establece la imagen de fondo para el cuerpo */
+    background-image: url('https://www.comunidadbaratz.com/wp-content/uploads/La-biblioteca-es-inclusion-social-e-igualdad-de-oportunidades.jpg');  /* Establece la imagen de fondo para el cuerpo */
     background-size: cover;  /* Asegura que la imagen de fondo cubra todo el cuerpo */
 }
 
@@ -59,7 +59,7 @@ span {
 }
 
 h1 {
-    color: rgb(226, 221, 221);  /* Establece el color de texto para los encabezados de nivel 1 */
+    color: rgb(1, 1, 1);  /* Establece el color de texto para los encabezados de nivel 1 */
 }
 
 /* Estilo para el contador */
