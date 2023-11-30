@@ -2,12 +2,15 @@ body {
     font-family: Arial, sans-serif;  /* Establece la fuente predeterminada para todo el documento */
     margin: 0;
     padding: 0;
-    background-color: #cf0000;  /* Establece el color de fondo para todo el cuerpo */
+    background-color: #eeeeee;  /* Establece el color de fondo para todo el cuerpo */
     text-align: center;  /* Centra el texto dentro del cuerpo */
     background-repeat: no-repeat;
-    background-image: url('https://www.comunidadbaratz.com/wp-content/uploads/La-biblioteca-es-inclusion-social-e-igualdad-de-oportunidades.jpg');  /* Establece la imagen de fondo para el cuerpo */
-    background-size: cover;  /* Asegura que la imagen de fondo cubra todo el cuerpo */
+    background-size: cover;  
+    /* Asegura que la imagen de fondo cubra todo el cuerpo */
+    
 }
+
+
 
 .libros-container {
     display: flex;
@@ -68,4 +71,15 @@ h1 {
     margin: 0 10px;  /* Agrega margen alrededor del contador */
     font-weight: bold;  /* Establece el peso de la fuente como negrita */
     font-size: 16px;  /* Establece el tamaño de fuente para el contador */
+    
+}
+
+.libro1 img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.libro2 img{
+    max-width: 500px;
+    max-height: 500px;
 }

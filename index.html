@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Libros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="...">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="..."></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1 class="titulo">COMPRA DE LIBROS</h1>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col">
+
+                <div class="libro1">
+                    <img class="imgLibro" src="./img/img1.jpg" alt="latidosQueNoDije">
+                    <h2>Latidos que no dije </h2>
+                    <h2>Precio libro: 100</h2>
+
+                    <div class="botones">
+                        <p>
+                            <button onclick="aumentarCantidad('libro1')">+</button>
+                            Cantidad: <span id="libro1Cantidad">0</span>
+                            <button onclick="disminuirCantidad('libro1')">-</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+
+                <div class="libro2">
+                    <img class="imgLibro" src="./img/img2.jpg" alt="todoaquelloquenotedi">
+                    <h2>Todo aquello que no te di</h2>
+                    <h2>Precio libro: 200</h2>
+
+                    <div class="botones">
+                        <p>
+                            <button onclick="aumentarCantidad('libro2')">+</button>
+                            Cantidad: <span id="libro2Cantidad">0</span>
+                            <button onclick="disminuirCantidad('libro2')">-</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center mt-3">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> Total de la compra </h5>
+                    <p class="card-text"> <span id="totalCompra">0</span></p>
+                    <button type="button" class="btn btn-outline-primary" onclick="calcularTotal()">Calcular Total</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/libro.js"></script>
